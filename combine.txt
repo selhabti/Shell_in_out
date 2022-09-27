@@ -1,0 +1,20 @@
+
+ 1001  wget https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
+ 1002  head wilders.csv
+ 1003  grep "2019,PHP" < wilders.csv | wc -l > php_france_2019.csv
+ 1004  grep "Biarritz,JavaScript"
+ 1005  grep Biarritz wilders.csv > Biarritz.csv
+ 1006  grep Toulous wilders.csv > Toulouse.csv
+ 1007  cat Biarritz.csv T
+ 1008  cat Biarritz.csv Toulouse.csv | sort -u > BiaTou.csv
+ 1009  grep JavaScript  BiaTou.csv > javascript_biarritz_toulouse.csv
+ 1010  history
+ 1011  tail
+ 1012  history
+
+*-*-*-*-*-*-*-*-*-*-JS-Biarritz And Toulouse*-*-*-*-*-*-*-*-*-*
+Thierry,Alexandre,Biarritz,France,2017,JavaScript
+Timothée,Henry,Toulouse,France,2018,JavaScript
+Victor,Lopez,Biarritz,France,2019,JavaScript
+Vincent,Sanchez,Biarritz,France,2019,JavaScript
+Yves,Marie,Biarritz,France,2019,JavaScript
